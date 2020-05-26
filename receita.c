@@ -2,6 +2,17 @@
 #include <stdlib.h>
 #include "receita.h"
 
+struct Receita {
+    char titulo[IND];
+    char tempo[IND];
+    char ingredientes[IND];
+    char modo[IND];
+    char criador[IND];
+    int nota;
+    int vezes;
+    struct Receita *proximo;
+    struct Receita *anterior;
+};
 
 void navegar_receitas() {
 	
