@@ -7,4 +7,14 @@ struct Receita {
 
 typedef struct Receita TReceita;
 
+void navegar_receitas();
+
+void marcar_receitas();
+
+void alterar_receitas();
+
+void excluir_receitas();
+
+void inserir_receitas();
+
 #endif
